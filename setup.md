@@ -5,7 +5,7 @@
 ## cuda install & cudnn install
 - cuda: https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
 - 加入環境變數->系統變量>path: C:\Program Files\NVIDIA Corporation\NVSMI
-- 檢查: nvidia-smi,nvcc -V, set cuda [https://codeantenna.com/a/PMzSaPMlg8]
+- 檢查: nvidia-smi,nvcc -V, set cuda(加入環境變數) [https://codeantenna.com/a/PMzSaPMlg8]
 - cudnn 7.6.5: https://developer.nvidia.com/rdp/cudnn-archive
 ## conda env setup
 - conda create --name torch python=3.8
