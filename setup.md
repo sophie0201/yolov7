@@ -18,4 +18,8 @@
 - 註解torch、torchvision
 - `pip install -r requirements.txt`
 - `python test.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights yolov7.pt --name yolov7_640_val`
+- 結果:![image](https://github.com/sophie0201/yolov7/assets/126761277/6e849872-fd2b-4bbb-8b66-14f0ba220448)
+- 搞了1天，哭了
+- 只能上colab
+
 
