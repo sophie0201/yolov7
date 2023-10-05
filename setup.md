@@ -14,5 +14,8 @@
 `conda install pytorch==1.0.1 torchvision==0.2.2 cudatoolkit=9.0 -c pytorch`
 - torchvision: `pip install  torchvision==0.2.2`(因為conda沒有這麼舊版本)
 - torch: `pip install torch-1.0.1-cp37-cp37m-win_amd64.whl` [https://download.pytorch.org/whl/cu90/torch_stable.html]
-
+## yolov7 setup
+- 註解torch、torchvision
+- `pip install -r requirements.txt`
+- `python test.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights yolov7.pt --name yolov7_640_val`
 
